@@ -1,15 +1,15 @@
 # Word2Audio
 对接科大讯飞语音合成api整合工具
 ## 项目结构
-|——tar: 需要在你的maven仓库安装的jar包
-|——src
-|——|——main
-|——|——|——java
-|——|——|——com.clf.word2audio
-|——|——|——|——xunfei: 讯飞语音合成的工具包
-|——|——|——|——ConvertUtils: 音频文件转换格式工具
-|——|——|——|——Test: 测试main
-|——|——|——|——WaveHeader: Wav转Mp3需要的header
+    |——tar: 需要在你的maven仓库安装的jar包
+    |——src
+    |——|——main
+    |——|——|——java
+    |——|——|——com.clf.word2audio
+    |——|——|——|——xunfei: 讯飞语音合成的工具包
+    |——|——|——|——ConvertUtils: 音频文件转换格式工具
+    |——|——|——|——Test: 测试main
+    |——|——|——|——WaveHeader: Wav转Mp3需要的header
 ## 使用方法
 ```shell script
 git clone https://github.com/kvenLin/Word2Audio.git
